@@ -1,0 +1,566 @@
+<!doctype html>
+<html>
+	<head>
+	<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+	
+	<title>&lt;/ Shohanul Alam &gt; - CV</title>
+
+	<style>
+	/*! normalize.css 2012-02-07T12:37 UTC - http://github.com/necolas/normalize.css */article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary{display:block}audio,canvas,video{display:inline-block;*display:inline;*zoom:1}audio:not([controls]){display:none}[hidden]{display:none}html{font-size:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}html,button,input,select,textarea{font-family:sans-serif}body{margin:0}a:focus{outline:thin dotted}a:hover,a:active{outline:0}h1{font-size:2em;margin:.67em 0}h2{font-size:1.5em;margin:.83em 0}h3{font-size:1.17em;margin:1em 0}h4{font-size:1em;margin:1.33em 0}h5{font-size:.83em;margin:1.67em 0}h6{font-size:.75em;margin:2.33em 0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}blockquote{margin:1em 40px}dfn{font-style:italic}mark{background:#ff0;color:#000}p,pre{margin:1em 0}pre,code,kbd,samp{font-family:monospace,serif;_font-family:'courier new',monospace;font-size:1em}pre{white-space:pre;white-space:pre-wrap;word-wrap:break-word}q{quotes:none}q:before,q:after{content:'';content:none}small{font-size:75%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}dl,menu,ol,ul{margin:1em 0}dd{margin:0 0 0 40px}menu,ol,ul{padding:0 0 0 40px}nav ul,nav ol{list-style:none;list-style-image:none}img{border:0;-ms-interpolation-mode:bicubic}svg:not(:root){overflow:hidden}figure{margin:0}form{margin:0}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0;white-space:normal;*margin-left:-7px}button,input,select,textarea{font-size:100%;margin:0;vertical-align:baseline;*vertical-align:middle}button,input{line-height:normal}button,input[type="button"],input[type="reset"],input[type="submit"]{cursor:pointer;-webkit-appearance:button;*overflow:visible}button[disabled],input[disabled]{cursor:default}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0;*height:13px;*width:13px}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-decoration,input[type="search"]::-webkit-search-cancel-button{-webkit-appearance:none}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align:top}table{border-collapse:collapse;border-spacing:0}
+
+/* General, overall styling */
+body {
+	background: #F9F9F9;
+	font-size: 0.9em;
+	font-family: 'Lato', sans-serif;
+	margin-bottom: 100px;
+}
+
+em {
+	color: #999;
+}
+
+p {
+	line-height: 1.4;
+}
+
+a {
+	color: #31A6D6;
+}
+
+a:visited {
+	color: #3061A5;
+}
+
+a:hover {
+	color: #3061A5;
+}
+
+ul {
+	margin-bottom: 0;
+}
+section {
+	margin-bottom: 2em;
+}
+
+blockquote {
+	margin: 0;
+	margin-bottom: 1em;
+}
+
+/* End general, overall styling */
+
+/* Header name styling */
+
+header {
+	background: #68B6E3;
+	padding: 50px;
+	margin-bottom: 50px;
+}
+
+header h1 {
+	color: #FFFFFF;
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+header h2 {
+	color: #F3F3F3;
+	font-size: 1em;
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+/* End header name styling */
+
+/* Set width of main body of CV */
+.container {
+	max-width: 700px;
+	padding: 0 50px;
+	margin: 0 auto;
+}
+
+/* End */
+
+/* Styling Basics (Name, Contact, About, Profiles) */
+
+#basics {
+	margin-bottom: 10px;
+	border-top: 1px #E2E2E2 solid;
+	border-bottom: 1px #E2E2E2 solid;
+}
+#basics h3 {
+	margin-top: 1.5em;
+	margin-bottom: 10px;
+}
+#basics .contact strong {
+	line-height: 1.3;
+	float: left;
+	width: 80px;
+}
+
+.contact h3 {
+	padding-bottom: 10px;
+}
+
+.website,
+.email,
+.phone {
+	margin-bottom: 10px;
+	float: left;
+	width: 50%;
+}
+
+.summary {
+	padding-top: 5px;
+	clear: both;
+}
+
+#profiles {
+	overflow: hidden;
+}
+
+#profiles .item {
+	float: left;
+	width: 50%;
+}
+
+.username{
+	margin-top: 10px;
+}
+
+/* End 'Basics' Styling */
+
+/* Work and volunteering experience styling */
+
+.work_date,
+.work_position,
+.work_website,
+.institution,
+.study_date,
+.qualification {
+	margin-bottom: 10px;
+	float: left;
+	width: 33%;
+}
+
+.courses {
+	clear: both;
+}
+
+.dissertation {
+	margin-top: 10px;
+}
+
+#work,
+#volunteer {
+	padding-bottom: 5px;
+	border-bottom: 1px #E2E2E2 solid;
+}
+
+#work .item,
+#volunteer .item {
+	margin: 25px 0;
+}
+
+/* End work and volunteering */
+
+/* Skills, languages, interests and references styling */
+
+#skills {
+	margin-bottom: 10px;
+	border-bottom: 1px #E2E2E2 solid;
+	padding-bottom: 5px;
+}
+
+#skills .item,
+#languages .item {
+	margin: 0 0 25px 0;
+}
+
+#interests .item {
+	margin-bottom: 25px;
+}
+
+#skills {
+	overflow: hidden;
+}
+
+#languages .item,
+#interests .item,
+#skills .item {
+	float: left;
+	width: 50%;
+}
+
+#references,
+#interests {
+	clear: both;
+}
+
+.shohanul {
+    margin: -152px 44px -39px -25px;
+    padding-left: 750px;
+
+/* End styling */
+
+	</style>
+	
+	</head>
+	<body>
+	
+	<header>
+	<h1>&lt;/ Shohanul Alam &gt;</h1>
+	<h2>{ Web Application Developer & Designer }</h2>
+	<img class="shohanul" src="shohanul.png" alt="shohanul">
+	</header>
+
+	<div id="content" class="container">
+	<section id="basics">
+		<div class="contact">
+		<h3>Contact</h3>
+		<div class="website">
+			<strong>Website:</strong>
+			<a href="http://shohan494.github.io">http://shohan494.github.io</a>
+		</div>
+		<div class="email">
+			<strong>Email:</strong>
+			shohan12224943@gmail.com
+		</div>
+		<div class="phone">
+			<strong>Phone:</strong>
+			+880-171362195
+		</div>
+		</div>
+		<div class="summary">
+			<h3>About</h3>
+			<p>I intruduce myself as a passionate self-taught Web Application Developer. I love to code with JavaScript, Php and Python. Expreienced in both front-end and back-end framworks and libraries like Bootstrap, Codeigniter, JQuery, Ajax and also interested in Django and Laravel.</p>
+			<p>Currently I am researching and learning to become an Advanced Javascript Developer and studying over different frameworks like Angular.Js and Node.js. I prefer working in the back-end though I have a good grasp over the front-end part.</p>
+		</div>
+		<section id="profiles">
+			<div class="item">
+				<strong class="network">
+					Facebook
+				</strong>
+				<div class="url">
+					<a href="https://www.facebook.com/shohan494">
+						shohan494
+					</a>
+				</div>
+			</div>
+			<div class="item">
+				<strong class="network">
+					Twitter
+				</strong>
+				<div class="url">
+					<a href="https://twitter.com/cactus494">
+						cactus494
+					</a>
+				</div>
+			</div>
+			<div class="item">
+				<strong class="network">
+					LinkedIn
+				</strong>
+				<div class="url">
+					<a href="https://www.linkedin.com/in/shohan494/">
+						shohan494
+					</a>
+				</div>
+			</div>
+			<div class="item">
+				<strong class="network">
+					Youtube
+				</strong>
+				<div class="url">
+					<a href="https://www.youtube.com/c/MDSHOHANULALAMShohan">
+						MDSHOHANULALAMShohan
+					</a>
+				</div>
+			</div>
+			<div class="item">
+				<strong class="network">
+					Github
+				</strong>
+				<div class="url">
+					<a href="https://www.github.com/shohan494">
+						Shohan494
+					</a>
+				</div>
+			</div>
+			<div class="item">
+				<strong class="network">
+					Stack-Overflow
+				</strong>
+				<div class="url">
+					<a href="https://stackoverflow.com/users/4069577/shohanul-alam">
+						shohanul-alam
+					</a>
+				</div>
+			</div>
+		</section>
+	</section>
+
+	<section id="work">
+		<h2>Work</h2>
+		<div class="item">
+			<h3 class="work_name">
+				<u>Ekkdam.com</u>
+			</h3>
+			
+			<div class="work_position">
+				<strong>Back-End-Developer</strong>
+			</div>
+
+			<div class="work_date">
+				<span class="startDate">
+					01.05.2017
+				</span>
+				<span class="endDate">
+					- 05.07.2017
+				</span>
+			</div>
+
+			<div class="work_website">
+				<a href="http://ekkdam.com">http://ekkdam.com</a>
+			</div>
+
+
+			<div class="summary">
+				<p>Ekkdam.com is a multi-platform technology company based on JavaScript stack</p>
+			</div>
+			<ul class="highlights">
+				<li>Building web and mobile Application api that uses to make shopping business deals automated, team lead successfully won Microsoft&#x27;s Elite Membership, creating node.js api that can be used in both web and mobile platforms, handling the front-end section using Facebook&#x27;s react-native framework</li>
+			</ul>
+		</div>
+		<div class="item">
+			<h3 class="work_name">
+				<u>Dynamic9</u>
+			</h3>
+			
+			<div class="work_position">
+				<strong>Full-Stack-Developer</strong>
+			</div>
+
+			<div class="work_date">
+				<span class="startDate">
+					01.05.2017				
+				</span>
+				<span class="endDate">
+					- 01.07.2017
+				</span>
+			</div>
+
+			<div class="work_website">
+				<a href="https://www.facebook.com/iamAbdus/">https://www.facebook.com/iamAbdus/</a>
+			</div>
+
+
+			<div class="summary">
+				<p>Maison Mahdil is a front-end based web design focused service</p>
+			</div>
+			<ul class="highlights">
+				<li>Handling front-end and back-end of Web Applications, using Google, Facebook and others provided api, integration of Google&#x27;s Firebase platform</li>
+			</ul>
+		</div>
+		<div class="item">
+			<h3 class="work_name">
+				<u>Maison Mahdil</u>
+			</h3>
+			
+			<div class="work_position">
+				<strong>Junior Web Associate</strong>
+			</div>
+
+			<div class="work_date">
+				<span class="startDate">
+					01.02.2016
+				</span>
+				<span class="endDate">
+					- 30.03.2016
+				</span>
+			</div>
+
+			<div class="work_website">
+				<a href="https://mahdil.com">https://mahdil.com</a>
+			</div>
+
+
+			<div class="summary">
+				<p>Maison Mahdil is a front-end purposed technology company</p>
+			</div>
+			<ul class="highlights">
+				<li>A french unique design company that provides creative front-end, handling front-end and design Web Applications, creating useful functionalities prototype</li>
+			</ul>
+		</div>
+	</section>
+
+	
+	<section id="education">
+		<h2>Education</h2>
+		<div class="item">
+			
+			<div class="institution">
+				American International University-Bangladesh
+			</div>
+
+			<div class="study_date">
+				<span class="startDate">
+					01.09.2012
+				</span>
+				<span class="endDate">
+					- 01.09.2012
+				</span>
+			</div>
+
+			<div class="work_website">
+				<li>Currently Running..</li>
+			</div>
+			<br>
+
+			<ul class="courses">
+			</ul>			
+
+		</div>
+		<div class="item">
+			
+			<div class="institution">
+				Engineering University Higher Secondary School
+			</div>
+
+			<div class="study_date">
+				<span class="startDate">
+					01.06.2010
+				</span>
+				<span class="endDate">
+					- 01.05.2012
+				</span>
+			</div>
+
+			<div class="work_website">
+				<li>GPA: 4.70</li>
+			</div>
+
+			<ul class="courses">
+			</ul>
+		</div>
+		<div class="item">
+			
+			<div class="institution">
+				Motijheel Model High School
+			</div>
+
+			<div class="study_date">
+				<span class="startDate">
+					01.01.2006
+				</span>
+				<span class="endDate">
+					- 01.04.2010
+				</span>
+			</div>
+
+			<div class="work_website">
+				<li>GPA: 5.00</li>
+			</div>
+
+			<ul class="courses">
+			</ul>
+
+		</div>
+	</section>
+	
+	<section id="skills">
+		<h2>Skills</h2>
+		<div class="item">
+			<div class="name">
+				Front-End
+			</div>
+			<div class="level">
+				<em>Master</em>
+			</div>
+			<ul class="keywords">
+				<li>HTML5</li>
+				<li>CSS3</li>
+				<li>JavaScript and JQuery</li>
+				<li>Bootstrap, Foundation</li>
+				<li>Google&#x27;s Material Design</li>
+			</ul>
+		</div>
+		<br>
+		<div class="item">
+			<div class="name">
+				Back-End
+			</div>
+			<div class="level">
+				<em>Intermediate</em>
+			</div>
+			<ul class="keywords">
+				<li>Advanced JavaScript</li>
+				<li>Php</li>
+				<li>Python</li>
+				<li>Ajax</li>
+			</ul>
+		</div>
+		<br><br>
+		<div class="item">
+			<div class="name">
+				Database
+			</div>
+			<div class="level">
+				<em>Intermediate</em>
+			</div>
+			<ul class="keywords">
+				<li>MySql</li>
+				<li>MongoDB</li>
+				<li>Json</li>
+				<li>Redis and Oracle&#x27;s Pl-Sql</li>
+			</ul>
+		</div>
+		<div class="item">
+			<div class="name">
+				Frameworks
+			</div>
+			<div class="level">
+				<em>Intermediate</em>
+			</div>
+			<ul class="keywords">
+				<li>Node.js, Express.js, Angular</li>
+				<li>CodeIgniter and Laravel</li>
+				<li>Firebase</li>
+				<li>Django</li>
+				<li>Basic Wordpress</li>
+			</ul>
+		</div>
+		<div class="item">
+			<div class="name">
+				Other skills
+			</div>
+			<div class="level">
+				<em>Average</em>
+			</div>
+			<ul class="keywords">
+				<li>Efficient in using Git and Github</li>
+				<li>Fluent in 3rd Party Api</li>
+				<li>Fast Learner and Team-Player</li>
+				<li>Used to in Linux-OS(Ubuntu) and CLI</li>
+				<li>Open source enthusiast and continious learner</li>
+			</ul>
+		</div>
+	</section>
+
+
+	
+	<section id="references">
+		<h2>References</h2>
+		<div class="item">
+			<div class="name">
+				— Abdul Jalil Bhuiyan, Principal-Jahangir Nagar University
+			</div>
+		</div>
+	</section>
+	
+	</div>
+	</body>
+</html>
