@@ -15,11 +15,11 @@
 **Front-End**
 Master
 
-	- HTML5
-	- CSS3
-	- JavaScript and JQuery
-	- Bootstrap, Foundation
-	- Google's Material Design
+  - HTML5
+  - CSS3
+  - JavaScript and JQuery
+  - Bootstrap, Foundation 
+  - Google's Material Design
 
 **Back-End**
 Intermediate
